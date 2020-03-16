@@ -115,18 +115,18 @@ m = prophet(coronaData_confirmed)
 future = make_future_dataframe(m,periods=14)
 forecast <- predict(m, future)
 tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
-plot(m,forecast)
+plot(m,forecast, xlabel =  "Date", ylabel = "Count #", )
 
 # for coronaData_death
 m = prophet(coronaData_death)
 future = make_future_dataframe(m,periods=14)
 forecast <- predict(m, future)
 tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
-plot(m,forecast)
+plot(m,forecast, xlabel =  "Date", ylabel = "Count #", )
 
 # for coronaData_recover
 m = prophet(coronaData_recover)
 future = make_future_dataframe(m,periods=14)
 forecast <- predict(m, future)
 tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
-plot(m,forecast)
+plot(m,forecast, xlabel =  "Date", ylabel = "Count #", )
