@@ -35,8 +35,14 @@ This virus probably originally emerged from an animal source but now seems to be
 - Dots shows the actual confirmed cases of corona virus.
 - Blue line illustrates the predicted confirmed cases.
 
-1.Confirmed cases of coronavirus analysis:
+1. Confirmed cases:
+ 
 ![GitHub](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_confirmed_prediction.png)
 
-2.Recovered cases of coronavirus analysis:
+2. Recovered cases:
+
 ![GitHub](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_recover_prediction.png)
+
+3. Death cases:
+
+![GitHub](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_death_prediction.png)
