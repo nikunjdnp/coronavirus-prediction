@@ -27,5 +27,22 @@ This virus probably originally emerged from an animal source but now seems to be
 * Ministry of Health Singapore (MOH): https://www.moh.gov.sg/covid-19
 * Italy Ministry of Health: http://www.salute.gov.it/nuovocoronavirus
 
+<b>Post prediction analysis:</b>
+ - Dots shows the actual confirmed cases of corona virus.
+ - Blue line illustrates the predicted confirmed cases.
+
+1. Confirmed cases of coronavirus analysis: 
+![Coronavirus_recovered_cases](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_confirmed_prediction.png)
+
+2. Recovered cases of coronavirus analysis: 
+![Coronavirus_confirmed_cases](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_recover_prediction.png)
+
+3. Death cases of coronavirus analysis: 
+![Coronavirus_death_cases](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_death_prediction.png)
+
 <b>Reference:</b><br> 
 * https://www.cdc.gov/coronavirus/2019-ncov/faq.html
+* https://facebook.github.io/prophet
+
+
+
