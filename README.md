@@ -33,7 +33,7 @@ This virus probably originally emerged from an animal source but now seems to be
 
 <b>Post prediction analysis:</b>
 - Dots shows the actual confirmed cases of corona virus.
-- Blue line illustrates the predicted confirmed cases.
+- Blue line illustrates the predicted cases.
 
 1. Confirmed cases:
  
