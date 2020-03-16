@@ -79,6 +79,12 @@ coronaData <- coronaData %>%
   summarise(Confirmed = sum(Confirmed,na.rm=TRUE), Deaths = sum(Deaths,na.rm=TRUE), 
             Recovered = sum(Recovered,na.rm=TRUE))
 
+#barchart of current worldwide coronavirus data.
+barchart(ObservationDate ~ Confirmed + Deaths + Recovered,
+         data=coronaData, beside=TRUE, main="Coronavirus spread worldwide breakdown by dates",
+         xlab="Total#", ylab="Date", 
+         auto.key=list(space='bottom'))
+
 # get confirmed coronavirus cases data
 coronaData_confirmed <- coronaData %>%
   select(ObservationDate, Confirmed ) 
