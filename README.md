@@ -46,3 +46,6 @@ This virus probably originally emerged from an animal source but now seems to be
 3. Death cases:
 
 ![GitHub](https://github.com/nikunjdnp/coronavirus-prediction/blob/master/Coronavirus_death_prediction.png)
+
+Suggestions:
+- Covid-19 confirmed and death cases are rapidly growing than that of predicted values. The recovered cases are normal with the predicted values.
