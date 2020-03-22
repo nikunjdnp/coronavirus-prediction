@@ -54,8 +54,8 @@ names(coronaData)   #List the variables for Coronavirus Data
 str(coronaData)     #List structure of Coronavirus Data
 
 #Rename columns
-colnames(coronaData)[4] <- "State" 
-colnames(coronaData)[5] <- "Country"
+colnames(coronaData)[3] <- "State" 
+colnames(coronaData)[4] <- "Country"
 #names(coronaData) <- c("ObservationDate","State","Country", "Confirmed", "Deaths", "Recovered")
 
 #Select only obsetvationDate, country, confirmed, deaths, recovered columns
